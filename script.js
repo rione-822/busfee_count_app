@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', ()=>{
 
 
-    var didUse = document.getElementById('did-use-button');
-    var message = document.getElementById('msg');
-    let save = document.getElementById('save-button')
+    let didUse = document.getElementById('did-use-button');
+    const message = document.getElementById('msg');
+    const save = document.getElementById('save-button');
+    
 
     function clickedUsedBtn(didUse){
         if (didUse.checked){
@@ -15,7 +16,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     didUse.addEventListener('click', () => {
         clickedUsedBtn(didUse);
-        alert('ボタンがクリックされました！');
     });
     save.addEventListener('click', function(){
         alert('ボタンがクリックされました！');
