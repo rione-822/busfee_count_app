@@ -24,17 +24,24 @@
 
 .day{
     background-color: #666;
-    color:#ddd
+    color:#ddd;
+}
+
+button {
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 0.5em 1.2em;
 }
 
 .date{
-    
+    background-color: #ffffff;
     border: 1px solid #ddd;
 }
 
 .not-now{
     background-color:#eeeeee;
     color:#bdbdbd;
+    padding: 0.5em 1em;
 }
 
 
