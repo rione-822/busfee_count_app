@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         const lastDayNowMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0);
          
         //前月分の空白を埋める
-        for (let i = 6 - firstDayNowMonth.getDay(); i > 0; i--){
+        for (let i = firstDayNowMonth.getDay(); i > 0; i--){
             const pastDate = new Date(date.getFullYear(), date.getMonth(), 1-i).getDate();
             const dateDiv = document.createElement("button");
             dateDiv.className = "date not-now";
