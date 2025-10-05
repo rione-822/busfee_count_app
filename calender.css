@@ -28,11 +28,13 @@
 }
 
 .date{
+    
     border: 1px solid #ddd;
 }
 
 .not-now{
-    color:#bdbdbd
+    background-color:#eeeeee;
+    color:#bdbdbd;
 }
 
 
