@@ -33,15 +33,27 @@ button {
     padding: 0.5em 1.2em;
 }
 
-.date{
+.date, .past-month, .next-month{
     background-color: #ffffff;
     border: 1px solid #ddd;
 }
 
-.not-now{
+.past-month, .next-month{
     background-color:#eeeeee;
     color:#bdbdbd;
     padding: 0.5em 1em;
+}
+
+#selected {
+    border-color: aqua;
+}
+
+.today {
+    background-color: #fdcd8f;
+}
+
+#calender button:hover {
+    background-color:aliceblue;
 }
 
 
